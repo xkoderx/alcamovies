@@ -1,4 +1,4 @@
-package com.example.peliculas
+package com.xkoderx.alcamovies
 
 import io.flutter.embedding.android.FlutterActivity
 
