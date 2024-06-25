@@ -101,7 +101,7 @@ class _MoviePoster extends StatelessWidget {
               ),
             ),
           ),
-          SizedBox(height: 5),
+          SizedBox(height: 2),
           Text(
             movie.title,
             maxLines: 2,

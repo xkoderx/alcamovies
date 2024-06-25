@@ -95,18 +95,18 @@ class _PosterAndTitle extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 Text(movie.title,
-                    style: textTheme.headline5,
+                    style: textTheme.headlineSmall,
                     overflow: TextOverflow.ellipsis,
                     maxLines: 2),
                 Text(movie.originalTitle,
-                    style: textTheme.subtitle1,
+                    style: textTheme.titleMedium,
                     overflow: TextOverflow.ellipsis,
                     maxLines: 2),
                 Row(
                   children: [
                     Icon(Icons.star_outline, size: 15, color: Colors.grey),
                     SizedBox(width: 5),
-                    Text('${movie.voteAverage}', style: textTheme.caption)
+                    Text('${movie.voteAverage}', style: textTheme.bodySmall)
                   ],
                 )
               ],
@@ -130,7 +130,7 @@ class _Overview extends StatelessWidget {
       child: Text(
         movie.overview,
         textAlign: TextAlign.justify,
-        style: Theme.of(context).textTheme.subtitle1,
+        style: Theme.of(context).textTheme.titleMedium,
       ),
     );
   }

@@ -63,7 +63,7 @@ class _CastCard extends StatelessWidget {
               fit: BoxFit.cover,
             ),
           ),
-          SizedBox(height: 5),
+          SizedBox(height: 2),
           Text(
             actor.name,
             maxLines: 2,
