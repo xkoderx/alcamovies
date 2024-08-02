@@ -1,16 +1,63 @@
-# peliculas
 
-A new Flutter project.
+# 🎬 Alcamovies 🎬
 
-## Getting Started
+En Alcamovies podras encontrar informacion de tus peliculas favoritas y lo ultimo en cines.
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+## Demo 👾
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+![Alt Text](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/alcamovie.gif)
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+
+## Screenshots 📷
+
+![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_1.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_2.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_3.jpg)
+
+![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_4.jpg)
+
+## Authors 👥
+
+- [@xkoderx](https://www.github.com/xkoderx)
+
+
+## ⚠️⚠️ **IMPORTANT!** ⚠️⚠️
+
+ **To run locally you need an TMDB API key** 
+ * And set in /lib/providers/movies_provider.dart
+    
+## Run Locally 💻
+
+Clone the project
+
+```bash
+  git clone https://github.com/xkoderx/alcamovies/
+```
+
+Go to the project directory
+
+```bash
+  cd alcamovies
+```
+
+Install dependencies
+
+```bash
+  flutter pub get
+```
+
+Run the app
+
+```bash
+  flutter run
+```
+
+
+## Contributing 🤌
+
+Contributions are always welcome!
+
+
