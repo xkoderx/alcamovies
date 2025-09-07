@@ -19,6 +19,7 @@ class MovieSlider extends StatefulWidget {
 
 class _MovieSliderState extends State<MovieSlider> {
   final ScrollController scrollController = new ScrollController();
+  bool isLoading = false;
 
   @override
   void initState() {
@@ -27,9 +28,20 @@ class _MovieSliderState extends State<MovieSlider> {
     scrollController.addListener(() {
       if (scrollController.position.pixels >=
           scrollController.position.maxScrollExtent - 500) {
-        widget.onNextPage();
+        // widget.onNextPage();
+        fetchData();
       }
     });
+  }
+
+  Future fetchData() async {
+    if (isLoading) return;
+    isLoading = true;
+    setState(() {});
+    widget.onNextPage();
+    await Future.delayed(Duration(seconds: 1));
+    isLoading = false;
+    setState(() {});
   }
 
   @override

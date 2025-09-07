@@ -15,8 +15,6 @@ class DetailsScreen extends StatelessWidget {
             delegate: SliverChildListDelegate([
           _PosterAndTitle(movie),
           _Overview(movie),
-          _Overview(movie),
-          _Overview(movie),
           CastingCards(movie.id)
         ]))
       ],
@@ -34,7 +32,7 @@ class _CustomAppBar extends StatelessWidget {
     return SliverAppBar(
       // TODO: Cambiar luego por una instancia de movie
 
-      backgroundColor: Colors.green,
+      backgroundColor: Colors.red,
       expandedHeight: 200,
       floating: false,
       pinned: true,
@@ -48,7 +46,7 @@ class _CustomAppBar extends StatelessWidget {
           color: Colors.black12,
           child: Text(
             movie.title,
-            style: TextStyle(fontSize: 16),
+            style: TextStyle(fontSize: 24),
             textAlign: TextAlign.center,
           ),
         ),
@@ -126,11 +124,11 @@ class _Overview extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      padding: EdgeInsets.symmetric(horizontal: 30, vertical: 10),
+      padding: EdgeInsets.symmetric(horizontal: 35, vertical: 15),
       child: Text(
         movie.overview,
         textAlign: TextAlign.justify,
-        style: Theme.of(context).textTheme.titleMedium,
+        style: Theme.of(context).textTheme.bodyMedium,
       ),
     );
   }
