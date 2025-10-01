@@ -3,21 +3,13 @@
 
 En Alcamovies podras encontrar informacion de tus peliculas favoritas y lo ultimo en cines.
 
+## Screenshots 📷
+
+![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots.jpg)
 
 ## Demo 👾
 
 ![Alt Text](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/alcamovie.gif)
-
-
-## Screenshots 📷
-
-![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_1.jpg)
-
-![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_2.jpg)
-
-![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_3.jpg)
-
-![App Screenshot](https://raw.githubusercontent.com/xkoderx/alcamovies/master/assets/screenshots/Screenshot_4.jpg)
 
 ## Authors 👥
 
